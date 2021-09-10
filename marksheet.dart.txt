@@ -21,5 +21,3 @@ void main() {
     print("Sorry you have failed the exam, your grade is F and your percentage is ${percentage}.");
   }
 }
-
-end
