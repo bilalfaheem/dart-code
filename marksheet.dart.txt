@@ -1,23 +1,29 @@
 void main() {
-  double totalmarks=800;
-  double obtainedmarks=350;
+  double marks1=79;
+  double marks2=69;
+  double marks3=67;
+  double marks4=80;
+  double marks5=75;
+  double marks6=35;
+  double totalmarks=600;
+  double obtainedmarks=marks1+marks2+marks3+marks4+marks5+marks6;
   double percentage=(obtainedmarks/totalmarks)*100;
   if (percentage >=80){
-    print("Congrats you have achieve A+, your percentage is ${percentage}.");
+    print("Congrats you have achieve A+, your percentage is ${percentage}%.");
   }
   else if (percentage >=70){
-    print("Congrats you have achieve A grade, your percentage is ${percentage}.");
+    print("Congrats you have achieve A grade, your percentage is ${percentage}%.");
   }
   else if (percentage >=60){
-    print("Congrats you have achieve B grade, your percentage is ${percentage}.");
+    print("Congrats you have achieve B grade, your percentage is ${percentage}%.");
   }
   else if(percentage >=50){
-    print("Congrats you have achieve C grade, your percentage is ${percentage}.");
+    print("Congrats you have achieve C grade, your percentage is ${percentage}%.");
   }
   else if(percentage >=40){
-    print("Congrats you have achieve D grade, your percentage is ${percentage}.");
+    print("Congrats you have achieve D grade, your percentage is ${percentage}%.");
   }
   else {
-    print("Sorry you have failed the exam, your grade is F and your percentage is ${percentage}.");
+    print("Sorry you have failed the exam, your grade is F and your percentage is ${percentage}%.");
   }
 }
