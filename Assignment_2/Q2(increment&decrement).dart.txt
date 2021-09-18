@@ -1,0 +1,22 @@
+void main(){
+  var a=2;
+  var b=1;
+  var result= --a - --b + ++b + b--;
+  print(result);
+  
+  /* output=3 */
+  
+  var c=2;
+  var d=1;
+  print("${--c} as pre decrement (1-c) stores 1 in c" );
+  print("${--d} as pre decrement (1-d) stores 0 in d");
+  print("${++d}as pre increment (1+d) stores 1 in d");
+  print("${d--} as post decrement do d-1 but in the above expression \n it call value of d before it is decrement") ;
+  
+  /* Output
+1 as pre decrement (1-c) stores 1 in c
+0 as pre decrement (1-d) stores 0 in d
+1as pre increment (1+d) stores 1 in d
+1 as post decrement do d-1 but in the above expression 
+ it call value of d before it is decrement */
+}

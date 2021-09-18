@@ -1,0 +1,8 @@
+void main(){
+  var ticketprice=600;
+  var fiveticketprice= 5* ticketprice;
+  print("cost of fivetickets is $fiveticketprice" );
+  
+}
+/*Output
+ * cost of fivetickets is 3000 */

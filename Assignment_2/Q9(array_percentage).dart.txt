@@ -1,0 +1,37 @@
+void main(){
+  var name=["ahmed","rameez","aaliyan"];
+  var score=[300,150,380];
+  
+  double totalmarks=500;
+  int a=-1;
+  for(var i in score){
+    a++;
+    double percentage=(i/totalmarks)*100;
+    
+   print(name[a]);
+   
+  if (percentage >=80){
+    print("Congrats you have achieve A+, your score is $i and your percentage is $percentage%.");
+  }
+  else if (percentage >=70){
+    print("Congrats you have achieve A grade, your score is $i and your percentage is $percentage%.");
+  }
+  else if (percentage >=60){
+    print("Congrats you have achieve B grade, your score is $i and your percentage is $percentage%.");  }
+  else if(percentage >=50){
+    print("Congrats you have achieve C grade, your score is $i and your percentage is $percentage%.");  }
+  else if(percentage >=40){
+    print("Congrats you have achieve D grade, your score is $i and your percentage is $percentage%.");  }
+  else {
+    print("Sorry you have failed the exam, your grade is F. You have score $i and your percentage is ${percentage}%.");
+  }
+  }
+  
+}
+/*OUTPUT
+ * ahmed
+Congrats you have achieve B grade, your score is 300 and your percentage is 60%.
+rameez
+Sorry you have failed the exam, your grade is F. You have score 150 and your percentage is 30%.
+aaliyan
+Congrats you have achieve A grade, your score is 380 and your percentage is 76%.*/

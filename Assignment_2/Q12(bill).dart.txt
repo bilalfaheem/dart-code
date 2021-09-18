@@ -1,0 +1,30 @@
+void main(){
+  var name="BILAL FAHEEM";
+  var month="September";
+  int units=257;
+  int peek_unit=18;
+  double rate=16.33;
+  double peek_rate=22.65;
+  double net_amount=(units*rate)+(peek_unit*peek_rate);
+  
+  double late_charges=500;
+  double net_amount_after_duedate=net_amount +late_charges;
+  
+  print("Name= $name \nMonth= $month \nNumber of Units= $units \nNumber of peek units=$peek_unit");
+  print("Unit Rate= $rate \nPeek Unit Rate= $peek_rate \nLate Payment Surcharge= $late_charges");
+  print("Amount Payable= $net_amount");
+  print("Amount Payable after Due date= $net_amount_after_duedate");
+  
+  /*
+  Name= BILAL FAHEEM 
+Month= September 
+Number of Units= 257 
+Number of peek units=18
+Unit Rate= 16.33 
+Peek Unit Rate= 22.65 
+Late Payment Surcharge= 500
+Amount Payable= 4604.509999999999
+Amount Payable after Due date= 5104.509999999999*/
+  
+  
+}

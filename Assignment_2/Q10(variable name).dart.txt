@@ -1,0 +1,16 @@
+void main(){
+  
+/*Allowed Variables*/
+  var a#=1;
+var a_z=0;
+var az1=3;
+var az$ =4;
+var aB=5;
+  
+/*Not allowed variables*/
+  var 1a=66;
+  var a%=33;
+  var a b=44;
+  var 665=64;
+  var b&=66;
+}

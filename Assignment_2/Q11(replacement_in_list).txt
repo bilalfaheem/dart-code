@@ -1,0 +1,9 @@
+void main (){
+  var list=["h","y","d","e","r","a","b","a","d"];
+  print(list);
+  list.replaceRange(0,5,["i","s","l","a","m"]);
+  print(list);
+}
+/*output
+ * [h, y, d, e, r, a, b, a, d]
+[i, s, l, a, m, a, b, a, d]*/

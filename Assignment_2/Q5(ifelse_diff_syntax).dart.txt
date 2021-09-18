@@ -1,0 +1,32 @@
+/*
+OPERATOR '?'
+condition ? expersion1 : expersion2	
+Conditional Operator
+It is a simple version of if-else statement. 
+If the condition is true than expersion1 is executed else expersion2 is executed.
+*/
+void main() { 
+   var a = 10; 
+   var res = a > 12 ? "a is greater than 12":"a is lesser than 12"; 
+   print(res); 
+ 
+/*RESULT:
+a is lesser than 12
+
+
+OPERATOR '??'
+expersion1 ?? expersion2	
+Conditional Operator	
+If expersion1 is non-null returns its value else returns expression2 value.*/
+
+ 
+   var c = null; 
+   var b = 12; 
+   var result = c ?? b; 
+   print(result); 
+}
+
+/*RESULT:
+12 
+*/
+  
