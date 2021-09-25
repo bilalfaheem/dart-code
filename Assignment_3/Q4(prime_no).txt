@@ -1,0 +1,14 @@
+void main(){
+  var a=29;
+  bool b=false;
+  for (var i=2;i<a;i++){
+    if(a%i==0){print("No, $a is not a prime no");
+    b=true;
+    break;}
+    
+    }
+  if(b==false){print("Yes, $a is a prime no");}
+}
+
+// output
+// Yes, 29 is a prime no

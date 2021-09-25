@@ -1,0 +1,14 @@
+void main(){
+  var character="d";
+  bool cond=false;
+  var vowels=["a","e","i","o","u"];
+  for (var i in vowels){
+    if(character==i){print("Yes, $character is a vowel.");
+    cond=true;
+    break;}
+    
+  }
+  if(cond==false){print("$character is not a vowel.");}
+}
+// output
+// d is not a vowel.

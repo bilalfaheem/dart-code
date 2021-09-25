@@ -1,0 +1,17 @@
+void main(){
+  var l=["ball","fan","bat","ball","mobile","fan"];
+  
+  duplicate(var name){
+  var d=0;
+  var i=0;
+  while(i<l.length){
+    if(l[i]==name){d++;}
+    if(d>=2)l.remove(name);
+    i++;}
+print(l);}
+  
+  duplicate("ball");
+}
+
+// output
+// [fan, bat, mobile, fan]
