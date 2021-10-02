@@ -1,0 +1,21 @@
+void main(){
+  Advancecalling obj= Advancecalling();
+  obj.voicecall();
+  obj.videocall();
+}
+
+class Calling{
+  void voicecall(){
+    print("One way of interaction");
+  }
+}
+
+class  Advancecalling extends Calling{
+  void videocall(){
+    print("two way of interaction");
+  }
+}
+
+// output
+// One way of interaction
+// two way of interaction
