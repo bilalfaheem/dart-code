@@ -15,7 +15,7 @@ class Biodata{
   }
 }
 
-// output
+// result
 //   Name: bilal
 // Age: 20
 // Education: undergraduate

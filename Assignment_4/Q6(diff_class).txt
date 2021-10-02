@@ -28,5 +28,5 @@ class Fifth{
   p(){return("L");}
 }
 
-// output
+// result
 // BILAL is my name

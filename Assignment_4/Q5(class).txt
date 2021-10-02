@@ -13,6 +13,6 @@ class Automobile{
   }
 }
 
-// output
+// result
 // corolla,civic
 // 120 cc bike

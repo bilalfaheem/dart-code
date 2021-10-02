@@ -8,7 +8,7 @@ void table(int no){
     print(t);
   }
 }
-// Output
+// result
 // 9
 // 18
 // 27

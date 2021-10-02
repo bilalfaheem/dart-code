@@ -28,7 +28,7 @@ void marksheet(String n,double m,int tm){
   }
  }
 
-// // output
+// result
 // Congrats Bilal, you have achieve A+, your percentage is 83.33333333333334%.
 // Congrats Ahmed, you have achieve A+, your percentage is 96.66666666666667%.
 // Congrats Daniyal, you have achieve C grade, your percentage is 56.666666666666664%.
