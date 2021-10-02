@@ -1,0 +1,32 @@
+void main(){
+  
+  First no1= First();
+  Second no2= Second();
+  Third no3= Third();
+  Fourth no4= Fourth();
+  Fifth no5= Fifth();
+  String a=no1.p();
+  String b=no2.p();
+  String c=no3.p();
+  String d=no4.p();
+  String e=no5.p();
+  print("$a$b$c$d$e is my name");
+}
+class First{
+   p(){return("B");}
+}
+class Second{
+  p(){return("I");}
+}
+class Third{
+  p(){return("L");}
+}
+class Fourth{
+  p(){return("A");}
+}
+class Fifth{
+  p(){return("L");}
+}
+
+// output
+// BILAL is my name

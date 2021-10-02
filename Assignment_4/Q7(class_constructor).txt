@@ -1,0 +1,21 @@
+void main(){
+  
+  Biodata first_person= Biodata(name:"bilal",age:20,education:"undergraduate");
+  first_person.details();
+}
+class Biodata{
+  
+  String name;
+  int age;
+  String education;
+  Biodata({required this.name,required this.age,required this.education});
+  
+  void details(){
+    print("Name: $name\nAge: $age\nEducation: $education");
+  }
+}
+
+// output
+//   Name: bilal
+// Age: 20
+// Education: undergraduate

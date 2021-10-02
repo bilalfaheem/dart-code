@@ -1,0 +1,36 @@
+void main(){
+  List<String> names=["Bilal","Ahmed","Daniyal","Abdullah","Ali"];
+  List<double> marks=[250,290,170,200,220];
+  for (int i=0;i<names.length;i++){
+    marksheet(names[i],marks[i],300);
+  }
+  
+}
+void marksheet(String n,double m,int tm){
+  double percentage=(m/tm)*100;
+     if (percentage >=80){
+    print("Congrats $n, you have achieve A+, your percentage is $percentage%.");
+  }
+  else if (percentage >=70){
+    print("Congrats $n, you have achieve A grade, your percentage is $percentage%.");
+  }
+  else if (percentage >=60){
+    print("Congrats $n, you have achieve B grade, your percentage is $percentage%.");
+  }
+  else if(percentage >=50){
+    print("Congrats $n, you have achieve C grade, your percentage is $percentage%.");
+  }
+  else if(percentage >=40){
+    print("Congrats $n, you have achieve D grade, your percentage is $percentage%.");
+  }
+  else {
+    print("Sorry $n, you have failed the exam, your grade is F and your percentage is $percentage%.");
+  }
+ }
+
+// // output
+// Congrats Bilal, you have achieve A+, your percentage is 83.33333333333334%.
+// Congrats Ahmed, you have achieve A+, your percentage is 96.66666666666667%.
+// Congrats Daniyal, you have achieve C grade, your percentage is 56.666666666666664%.
+// Congrats Abdullah, you have achieve B grade, your percentage is 66.66666666666666%.
+// Congrats Ali, you have achieve A grade, your percentage is 73.33333333333333%.

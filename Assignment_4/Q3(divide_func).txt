@@ -1,0 +1,18 @@
+void main(){
+  divide(20);
+}
+void divide(int no){
+  List<int> m=[2,4,6,8,9];
+  for(int i in m){
+    double u=no/i;
+    print(u);
+  }
+  
+  
+}
+// output
+// 10
+// 5
+// 3.3333333333333335
+// 2.5
+// 2.2222222222222223
